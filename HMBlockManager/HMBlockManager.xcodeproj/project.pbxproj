@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC5AD9B196BB1450011B419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC5AD9A196BB1450011B419 /* Foundation.framework */; };
+		BCC5ADA0196BB1450011B419 /* HMBlockManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCC5AD9F196BB1450011B419 /* HMBlockManager.h */; };
+		BCC5ADA2196BB1450011B419 /* HMBlockManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC5ADA1196BB1450011B419 /* HMBlockManager.m */; };
+		BCC5ADA9196BB1450011B419 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC5ADA8196BB1450011B419 /* XCTest.framework */; };
+		BCC5ADAA196BB1450011B419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC5AD9A196BB1450011B419 /* Foundation.framework */; };
+		BCC5ADAC196BB1450011B419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC5ADAB196BB1450011B419 /* UIKit.framework */; };
+		BCC5ADAF196BB1450011B419 /* libHMBlockManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC5AD97196BB1450011B419 /* libHMBlockManager.a */; };
+		BCC5ADB5196BB1450011B419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCC5ADB3196BB1450011B419 /* InfoPlist.strings */; };
+		BCC5ADB7196BB1450011B419 /* HMBlockManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC5ADB6196BB1450011B419 /* HMBlockManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC5ADAD196BB1450011B419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC5AD8F196BB1450011B419 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC5AD96196BB1450011B419;
+			remoteInfo = HMBlockManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCC5AD95196BB1450011B419 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BCC5ADA0196BB1450011B419 /* HMBlockManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCC5AD97196BB1450011B419 /* libHMBlockManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHMBlockManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC5AD9A196BB1450011B419 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC5AD9E196BB1450011B419 /* HMBlockManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMBlockManager-Prefix.pch"; sourceTree = "<group>"; };
+		BCC5AD9F196BB1450011B419 /* HMBlockManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMBlockManager.h; sourceTree = "<group>"; };
+		BCC5ADA1196BB1450011B419 /* HMBlockManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBlockManager.m; sourceTree = "<group>"; };
+		BCC5ADA7196BB1450011B419 /* HMBlockManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMBlockManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC5ADA8196BB1450011B419 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCC5ADAB196BB1450011B419 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BCC5ADB2196BB1450011B419 /* HMBlockManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMBlockManagerTests-Info.plist"; sourceTree = "<group>"; };
+		BCC5ADB4196BB1450011B419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCC5ADB6196BB1450011B419 /* HMBlockManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBlockManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC5AD94196BB1450011B419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC5AD9B196BB1450011B419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC5ADA4196BB1450011B419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC5ADAF196BB1450011B419 /* libHMBlockManager.a in Frameworks */,
+				BCC5ADA9196BB1450011B419 /* XCTest.framework in Frameworks */,
+				BCC5ADAC196BB1450011B419 /* UIKit.framework in Frameworks */,
+				BCC5ADAA196BB1450011B419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC5AD8E196BB1450011B419 = {
+			isa = PBXGroup;
+			children = (
+				BCC5AD9C196BB1450011B419 /* HMBlockManager */,
+				BCC5ADB0196BB1450011B419 /* HMBlockManagerTests */,
+				BCC5AD99196BB1450011B419 /* Frameworks */,
+				BCC5AD98196BB1450011B419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC5AD98196BB1450011B419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5AD97196BB1450011B419 /* libHMBlockManager.a */,
+				BCC5ADA7196BB1450011B419 /* HMBlockManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC5AD99196BB1450011B419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5AD9A196BB1450011B419 /* Foundation.framework */,
+				BCC5ADA8196BB1450011B419 /* XCTest.framework */,
+				BCC5ADAB196BB1450011B419 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC5AD9C196BB1450011B419 /* HMBlockManager */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5AD9F196BB1450011B419 /* HMBlockManager.h */,
+				BCC5ADA1196BB1450011B419 /* HMBlockManager.m */,
+				BCC5AD9D196BB1450011B419 /* Supporting Files */,
+			);
+			path = HMBlockManager;
+			sourceTree = "<group>";
+		};
+		BCC5AD9D196BB1450011B419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5AD9E196BB1450011B419 /* HMBlockManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC5ADB0196BB1450011B419 /* HMBlockManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5ADB6196BB1450011B419 /* HMBlockManagerTests.m */,
+				BCC5ADB1196BB1450011B419 /* Supporting Files */,
+			);
+			path = HMBlockManagerTests;
+			sourceTree = "<group>";
+		};
+		BCC5ADB1196BB1450011B419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC5ADB2196BB1450011B419 /* HMBlockManagerTests-Info.plist */,
+				BCC5ADB3196BB1450011B419 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC5AD96196BB1450011B419 /* HMBlockManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC5ADBA196BB1450011B419 /* Build configuration list for PBXNativeTarget "HMBlockManager" */;
+			buildPhases = (
+				BCC5AD93196BB1450011B419 /* Sources */,
+				BCC5AD94196BB1450011B419 /* Frameworks */,
+				BCC5AD95196BB1450011B419 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMBlockManager;
+			productName = HMBlockManager;
+			productReference = BCC5AD97196BB1450011B419 /* libHMBlockManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BCC5ADA6196BB1450011B419 /* HMBlockManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC5ADBD196BB1450011B419 /* Build configuration list for PBXNativeTarget "HMBlockManagerTests" */;
+			buildPhases = (
+				BCC5ADA3196BB1450011B419 /* Sources */,
+				BCC5ADA4196BB1450011B419 /* Frameworks */,
+				BCC5ADA5196BB1450011B419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC5ADAE196BB1450011B419 /* PBXTargetDependency */,
+			);
+			name = HMBlockManagerTests;
+			productName = HMBlockManagerTests;
+			productReference = BCC5ADA7196BB1450011B419 /* HMBlockManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC5AD8F196BB1450011B419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hayden Moon";
+			};
+			buildConfigurationList = BCC5AD92196BB1450011B419 /* Build configuration list for PBXProject "HMBlockManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCC5AD8E196BB1450011B419;
+			productRefGroup = BCC5AD98196BB1450011B419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC5AD96196BB1450011B419 /* HMBlockManager */,
+				BCC5ADA6196BB1450011B419 /* HMBlockManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC5ADA5196BB1450011B419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC5ADB5196BB1450011B419 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC5AD93196BB1450011B419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC5ADA2196BB1450011B419 /* HMBlockManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC5ADA3196BB1450011B419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC5ADB7196BB1450011B419 /* HMBlockManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC5ADAE196BB1450011B419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC5AD96196BB1450011B419 /* HMBlockManager */;
+			targetProxy = BCC5ADAD196BB1450011B419 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCC5ADB3196BB1450011B419 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC5ADB4196BB1450011B419 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC5ADB8196BB1450011B419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC5ADB9196BB1450011B419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC5ADBB196BB1450011B419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMBlockManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager/HMBlockManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BCC5ADBC196BB1450011B419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HMBlockManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager/HMBlockManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BCC5ADBE196BB1450011B419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager/HMBlockManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMBlockManagerTests/HMBlockManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCC5ADBF196BB1450011B419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager/HMBlockManager-Prefix.pch";
+				INFOPLIST_FILE = "HMBlockManagerTests/HMBlockManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC5AD92196BB1450011B419 /* Build configuration list for PBXProject "HMBlockManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC5ADB8196BB1450011B419 /* Debug */,
+				BCC5ADB9196BB1450011B419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC5ADBA196BB1450011B419 /* Build configuration list for PBXNativeTarget "HMBlockManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC5ADBB196BB1450011B419 /* Debug */,
+				BCC5ADBC196BB1450011B419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC5ADBD196BB1450011B419 /* Build configuration list for PBXNativeTarget "HMBlockManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC5ADBE196BB1450011B419 /* Debug */,
+				BCC5ADBF196BB1450011B419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC5AD8F196BB1450011B419 /* Project object */;
+}

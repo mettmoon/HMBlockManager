@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCF0D5D0196BB4B700360B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5CF196BB4B700360B42 /* Foundation.framework */; };
+		BCF0D5D2196BB4B700360B42 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5D1196BB4B700360B42 /* CoreGraphics.framework */; };
+		BCF0D5D4196BB4B700360B42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5D3196BB4B700360B42 /* UIKit.framework */; };
+		BCF0D5DA196BB4B700360B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0D5D8196BB4B700360B42 /* InfoPlist.strings */; };
+		BCF0D5DC196BB4B700360B42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D5DB196BB4B700360B42 /* main.m */; };
+		BCF0D5E0196BB4B700360B42 /* HMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D5DF196BB4B700360B42 /* HMAppDelegate.m */; };
+		BCF0D5E2196BB4B700360B42 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF0D5E1196BB4B700360B42 /* Images.xcassets */; };
+		BCF0D5E9196BB4B700360B42 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5E8196BB4B700360B42 /* XCTest.framework */; };
+		BCF0D5EA196BB4B700360B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5CF196BB4B700360B42 /* Foundation.framework */; };
+		BCF0D5EB196BB4B700360B42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5D3196BB4B700360B42 /* UIKit.framework */; };
+		BCF0D5F3196BB4B700360B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0D5F1196BB4B700360B42 /* InfoPlist.strings */; };
+		BCF0D5F5196BB4B700360B42 /* HMBlockManager_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D5F4196BB4B700360B42 /* HMBlockManager_SampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF0D5EC196BB4B700360B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF0D5C4196BB4B700360B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF0D5CB196BB4B700360B42;
+			remoteInfo = "HMBlockManager Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCF0D5CC196BB4B700360B42 /* HMBlockManager Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HMBlockManager Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF0D5CF196BB4B700360B42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCF0D5D1196BB4B700360B42 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCF0D5D3196BB4B700360B42 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCF0D5D7196BB4B700360B42 /* HMBlockManager Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMBlockManager Sample-Info.plist"; sourceTree = "<group>"; };
+		BCF0D5D9196BB4B700360B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF0D5DB196BB4B700360B42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCF0D5DD196BB4B700360B42 /* HMBlockManager Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HMBlockManager Sample-Prefix.pch"; sourceTree = "<group>"; };
+		BCF0D5DE196BB4B700360B42 /* HMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMAppDelegate.h; sourceTree = "<group>"; };
+		BCF0D5DF196BB4B700360B42 /* HMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAppDelegate.m; sourceTree = "<group>"; };
+		BCF0D5E1196BB4B700360B42 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCF0D5E7196BB4B700360B42 /* HMBlockManager SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HMBlockManager SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF0D5E8196BB4B700360B42 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCF0D5F0196BB4B700360B42 /* HMBlockManager SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMBlockManager SampleTests-Info.plist"; sourceTree = "<group>"; };
+		BCF0D5F2196BB4B700360B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCF0D5F4196BB4B700360B42 /* HMBlockManager_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBlockManager_SampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF0D5C9196BB4B700360B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5D2196BB4B700360B42 /* CoreGraphics.framework in Frameworks */,
+				BCF0D5D4196BB4B700360B42 /* UIKit.framework in Frameworks */,
+				BCF0D5D0196BB4B700360B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0D5E4196BB4B700360B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5E9196BB4B700360B42 /* XCTest.framework in Frameworks */,
+				BCF0D5EB196BB4B700360B42 /* UIKit.framework in Frameworks */,
+				BCF0D5EA196BB4B700360B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCF0D5C3196BB4B700360B42 = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5D5196BB4B700360B42 /* HMBlockManager Sample */,
+				BCF0D5EE196BB4B700360B42 /* HMBlockManager SampleTests */,
+				BCF0D5CE196BB4B700360B42 /* Frameworks */,
+				BCF0D5CD196BB4B700360B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF0D5CD196BB4B700360B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5CC196BB4B700360B42 /* HMBlockManager Sample.app */,
+				BCF0D5E7196BB4B700360B42 /* HMBlockManager SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF0D5CE196BB4B700360B42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5CF196BB4B700360B42 /* Foundation.framework */,
+				BCF0D5D1196BB4B700360B42 /* CoreGraphics.framework */,
+				BCF0D5D3196BB4B700360B42 /* UIKit.framework */,
+				BCF0D5E8196BB4B700360B42 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF0D5D5196BB4B700360B42 /* HMBlockManager Sample */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5DE196BB4B700360B42 /* HMAppDelegate.h */,
+				BCF0D5DF196BB4B700360B42 /* HMAppDelegate.m */,
+				BCF0D5E1196BB4B700360B42 /* Images.xcassets */,
+				BCF0D5D6196BB4B700360B42 /* Supporting Files */,
+			);
+			path = "HMBlockManager Sample";
+			sourceTree = "<group>";
+		};
+		BCF0D5D6196BB4B700360B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5D7196BB4B700360B42 /* HMBlockManager Sample-Info.plist */,
+				BCF0D5D8196BB4B700360B42 /* InfoPlist.strings */,
+				BCF0D5DB196BB4B700360B42 /* main.m */,
+				BCF0D5DD196BB4B700360B42 /* HMBlockManager Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCF0D5EE196BB4B700360B42 /* HMBlockManager SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5F4196BB4B700360B42 /* HMBlockManager_SampleTests.m */,
+				BCF0D5EF196BB4B700360B42 /* Supporting Files */,
+			);
+			path = "HMBlockManager SampleTests";
+			sourceTree = "<group>";
+		};
+		BCF0D5EF196BB4B700360B42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0D5F0196BB4B700360B42 /* HMBlockManager SampleTests-Info.plist */,
+				BCF0D5F1196BB4B700360B42 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF0D5CB196BB4B700360B42 /* HMBlockManager Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF0D5F8196BB4B700360B42 /* Build configuration list for PBXNativeTarget "HMBlockManager Sample" */;
+			buildPhases = (
+				BCF0D5C8196BB4B700360B42 /* Sources */,
+				BCF0D5C9196BB4B700360B42 /* Frameworks */,
+				BCF0D5CA196BB4B700360B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HMBlockManager Sample";
+			productName = "HMBlockManager Sample";
+			productReference = BCF0D5CC196BB4B700360B42 /* HMBlockManager Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF0D5E6196BB4B700360B42 /* HMBlockManager SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF0D5FB196BB4B700360B42 /* Build configuration list for PBXNativeTarget "HMBlockManager SampleTests" */;
+			buildPhases = (
+				BCF0D5E3196BB4B700360B42 /* Sources */,
+				BCF0D5E4196BB4B700360B42 /* Frameworks */,
+				BCF0D5E5196BB4B700360B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF0D5ED196BB4B700360B42 /* PBXTargetDependency */,
+			);
+			name = "HMBlockManager SampleTests";
+			productName = "HMBlockManager SampleTests";
+			productReference = BCF0D5E7196BB4B700360B42 /* HMBlockManager SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF0D5C4196BB4B700360B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hayden Moon";
+				TargetAttributes = {
+					BCF0D5E6196BB4B700360B42 = {
+						TestTargetID = BCF0D5CB196BB4B700360B42;
+					};
+				};
+			};
+			buildConfigurationList = BCF0D5C7196BB4B700360B42 /* Build configuration list for PBXProject "HMBlockManager Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCF0D5C3196BB4B700360B42;
+			productRefGroup = BCF0D5CD196BB4B700360B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF0D5CB196BB4B700360B42 /* HMBlockManager Sample */,
+				BCF0D5E6196BB4B700360B42 /* HMBlockManager SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF0D5CA196BB4B700360B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5DA196BB4B700360B42 /* InfoPlist.strings in Resources */,
+				BCF0D5E2196BB4B700360B42 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0D5E5196BB4B700360B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5F3196BB4B700360B42 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF0D5C8196BB4B700360B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5DC196BB4B700360B42 /* main.m in Sources */,
+				BCF0D5E0196BB4B700360B42 /* HMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0D5E3196BB4B700360B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF0D5F5196BB4B700360B42 /* HMBlockManager_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF0D5ED196BB4B700360B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF0D5CB196BB4B700360B42 /* HMBlockManager Sample */;
+			targetProxy = BCF0D5EC196BB4B700360B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCF0D5D8196BB4B700360B42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0D5D9196BB4B700360B42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCF0D5F1196BB4B700360B42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF0D5F2196BB4B700360B42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF0D5F6196BB4B700360B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF0D5F7196BB4B700360B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF0D5F9196BB4B700360B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				INFOPLIST_FILE = "HMBlockManager Sample/HMBlockManager Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCF0D5FA196BB4B700360B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				INFOPLIST_FILE = "HMBlockManager Sample/HMBlockManager Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCF0D5FC196BB4B700360B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HMBlockManager Sample.app/HMBlockManager Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HMBlockManager SampleTests/HMBlockManager SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCF0D5FD196BB4B700360B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HMBlockManager Sample.app/HMBlockManager Sample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				INFOPLIST_FILE = "HMBlockManager SampleTests/HMBlockManager SampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF0D5C7196BB4B700360B42 /* Build configuration list for PBXProject "HMBlockManager Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0D5F6196BB4B700360B42 /* Debug */,
+				BCF0D5F7196BB4B700360B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF0D5F8196BB4B700360B42 /* Build configuration list for PBXNativeTarget "HMBlockManager Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0D5F9196BB4B700360B42 /* Debug */,
+				BCF0D5FA196BB4B700360B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCF0D5FB196BB4B700360B42 /* Build configuration list for PBXNativeTarget "HMBlockManager SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF0D5FC196BB4B700360B42 /* Debug */,
+				BCF0D5FD196BB4B700360B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF0D5C4196BB4B700360B42 /* Project object */;
+}
