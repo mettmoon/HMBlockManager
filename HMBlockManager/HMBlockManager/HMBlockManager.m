@@ -79,7 +79,7 @@
 }
 - (void)save{
     NSData *archiveData = [NSKeyedArchiver archivedDataWithRootObject:self.dataDic];
-    [[NSUserDefaults standardUserDefaults] setObject:archiveData forKey:@"NotificationList"];
+    [[NSUserDefaults standardUserDefaults] setObject:archiveData forKey:self.repositoryIdentifier];
 }
 
 @end

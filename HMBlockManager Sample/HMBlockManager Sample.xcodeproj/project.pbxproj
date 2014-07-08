@@ -19,6 +19,11 @@
 		BCF0D5EB196BB4B700360B42 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5D3196BB4B700360B42 /* UIKit.framework */; };
 		BCF0D5F3196BB4B700360B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCF0D5F1196BB4B700360B42 /* InfoPlist.strings */; };
 		BCF0D5F5196BB4B700360B42 /* HMBlockManager_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D5F4196BB4B700360B42 /* HMBlockManager_SampleTests.m */; };
+		BCF0D5FF196BBCC900360B42 /* libHMBlockManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF0D5FE196BBCC900360B42 /* libHMBlockManager.a */; };
+		BCF0D601196BBCE000360B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF0D600196BBCE000360B42 /* Main.storyboard */; };
+		BCF0D604196BBD0C00360B42 /* HMMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D603196BBD0C00360B42 /* HMMainTableViewController.m */; };
+		BCF0D607196BBD5A00360B42 /* HMDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D606196BBD5A00360B42 /* HMDetailViewController.m */; };
+		BCF0D60A196BC4E000360B42 /* HMBlockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF0D609196BC4E000360B42 /* HMBlockTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		BCF0D5F0196BB4B700360B42 /* HMBlockManager SampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HMBlockManager SampleTests-Info.plist"; sourceTree = "<group>"; };
 		BCF0D5F2196BB4B700360B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCF0D5F4196BB4B700360B42 /* HMBlockManager_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMBlockManager_SampleTests.m; sourceTree = "<group>"; };
+		BCF0D5FE196BBCC900360B42 /* libHMBlockManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHMBlockManager.a; path = "../HMBlockManager/build/Debug-iphoneos/libHMBlockManager.a"; sourceTree = "<group>"; };
+		BCF0D600196BBCE000360B42 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BCF0D602196BBD0C00360B42 /* HMMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMMainTableViewController.h; sourceTree = "<group>"; };
+		BCF0D603196BBD0C00360B42 /* HMMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMMainTableViewController.m; sourceTree = "<group>"; };
+		BCF0D605196BBD5A00360B42 /* HMDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDetailViewController.h; sourceTree = "<group>"; };
+		BCF0D606196BBD5A00360B42 /* HMDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDetailViewController.m; sourceTree = "<group>"; };
+		BCF0D608196BC4E000360B42 /* HMBlockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBlockTableViewController.h; sourceTree = "<group>"; };
+		BCF0D609196BC4E000360B42 /* HMBlockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBlockTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0D5FF196BBCC900360B42 /* libHMBlockManager.a in Frameworks */,
 				BCF0D5D2196BB4B700360B42 /* CoreGraphics.framework in Frameworks */,
 				BCF0D5D4196BB4B700360B42 /* UIKit.framework in Frameworks */,
 				BCF0D5D0196BB4B700360B42 /* Foundation.framework in Frameworks */,
@@ -96,6 +110,7 @@
 		BCF0D5CE196BB4B700360B42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BCF0D5FE196BBCC900360B42 /* libHMBlockManager.a */,
 				BCF0D5CF196BB4B700360B42 /* Foundation.framework */,
 				BCF0D5D1196BB4B700360B42 /* CoreGraphics.framework */,
 				BCF0D5D3196BB4B700360B42 /* UIKit.framework */,
@@ -109,6 +124,13 @@
 			children = (
 				BCF0D5DE196BB4B700360B42 /* HMAppDelegate.h */,
 				BCF0D5DF196BB4B700360B42 /* HMAppDelegate.m */,
+				BCF0D602196BBD0C00360B42 /* HMMainTableViewController.h */,
+				BCF0D603196BBD0C00360B42 /* HMMainTableViewController.m */,
+				BCF0D605196BBD5A00360B42 /* HMDetailViewController.h */,
+				BCF0D606196BBD5A00360B42 /* HMDetailViewController.m */,
+				BCF0D608196BC4E000360B42 /* HMBlockTableViewController.h */,
+				BCF0D609196BC4E000360B42 /* HMBlockTableViewController.m */,
+				BCF0D600196BBCE000360B42 /* Main.storyboard */,
 				BCF0D5E1196BB4B700360B42 /* Images.xcassets */,
 				BCF0D5D6196BB4B700360B42 /* Supporting Files */,
 			);
@@ -220,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0D601196BBCE000360B42 /* Main.storyboard in Resources */,
 				BCF0D5DA196BB4B700360B42 /* InfoPlist.strings in Resources */,
 				BCF0D5E2196BB4B700360B42 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF0D604196BBD0C00360B42 /* HMMainTableViewController.m in Sources */,
+				BCF0D60A196BC4E000360B42 /* HMBlockTableViewController.m in Sources */,
 				BCF0D5DC196BB4B700360B42 /* main.m in Sources */,
+				BCF0D607196BBD5A00360B42 /* HMDetailViewController.m in Sources */,
 				BCF0D5E0196BB4B700360B42 /* HMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +388,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../HMBlockManager/**",
+				);
 				INFOPLIST_FILE = "HMBlockManager Sample/HMBlockManager Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,7 +408,14 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HMBlockManager Sample/HMBlockManager Sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../HMBlockManager/**",
+				);
 				INFOPLIST_FILE = "HMBlockManager Sample/HMBlockManager Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +480,7 @@
 				BCF0D5FA196BB4B700360B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF0D5FB196BB4B700360B42 /* Build configuration list for PBXNativeTarget "HMBlockManager SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +489,7 @@
 				BCF0D5FD196BB4B700360B42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
