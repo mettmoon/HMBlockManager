@@ -50,6 +50,10 @@ NSString const *kTitle = @"title";
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)clearAction:(id)sender {
+    [self.blockManager clearBlockIdentifier];
+    [self.tableView reloadData];
+}
 
 #pragma mark - Table view data source
 
